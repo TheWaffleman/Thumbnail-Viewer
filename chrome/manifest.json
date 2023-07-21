@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "thumbnailViewer",
+  "version": "1.4",
+  "description": "Displays Youtube Thumbnail",
+  "background": {
+    "service_worker": "thumbnailViewer.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon.png"
+    }
+  },
+  "permissions": ["tabs"],
+  "host_permissions": ["https://i.ytimg.com/*"]
+}
